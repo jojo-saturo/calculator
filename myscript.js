@@ -4,11 +4,11 @@ function appendValue(input) {
   display.value += input;
 }
 
-function calculate() {
+function clearDisplay() {
   display.value = "";
 }
 
-function clearDisplay() {
+function calculate() {
   try {
     display.value = eval(display.value);
   } catch (error) {
